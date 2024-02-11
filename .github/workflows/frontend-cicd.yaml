@@ -22,5 +22,5 @@ jobs:
 
       - name: Upload to S3
         run: |
-          aws s3 sync /Users/muskan/Downloads/resume-challenge/ s3://cloudresume-yash/AWS-portfolio/
+          aws s3 sync /Users/muskan/Downloads/resume-challenge s3://cloudresume-yash/AWS-portfolio/
 
