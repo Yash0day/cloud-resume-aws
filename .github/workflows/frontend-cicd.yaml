@@ -1,4 +1,4 @@
-name: Upload Website
+name: Frontend Resume AWS
 
 on:
   push:
