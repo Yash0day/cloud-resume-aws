@@ -20,5 +20,5 @@ jobs:
           aws_bucket: ${{ secrets.AWS_BUCKET }}
           source_dir: "/Users/muskan/Downloads/resume-challenge"
           destination_dir: "s3://cloudresume-yash/AWS-portfolio/"
-          acl: "public-read"
+          
 
