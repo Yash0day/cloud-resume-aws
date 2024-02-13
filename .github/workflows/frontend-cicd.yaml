@@ -3,8 +3,7 @@ name: Resume S3 bucket
 on: 
   push:
     branches:
-    - main
-
+      - main
 
 jobs:
   upload:
@@ -16,8 +15,7 @@ jobs:
           args: --acl public-read --follow-symlinks --delete --exclude '.git*/*' 
 
         env:   
-	  aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: ${{ secrets.AWS_BUCKET }}
-	  
 
