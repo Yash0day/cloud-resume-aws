@@ -3,7 +3,7 @@ name: Frontend Resume AWS
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
